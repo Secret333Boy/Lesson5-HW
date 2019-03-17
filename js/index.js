@@ -44,3 +44,8 @@
 // var N = 6, k = N % 2 != 0 ? 1 : -1, result = 0;
 // result += Math.ceil(N/2) * k; // == 1-2+3-..N => true
 // console.log(result);
+
+/*4*/
+var N = 5, k = Math.pow(-1, N), result = 0;
+result -= Math.ceil(N/2) * k;
+console.log(result);
